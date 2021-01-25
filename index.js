@@ -22,7 +22,7 @@ class Polygon {
 
 class Triangle extends Polygon {
 
-  get Valid() {
+  get isValid() {
     if (!Array.isArray(this.sides)) return;
     if (this.count !== 3) return;
     let side1 = this.sides[0]
